@@ -1,0 +1,175 @@
+.navcolor {
+  background-color: #fd7e14 !important;
+}
+.nav-item {
+  margin-left: 30px;
+}
+
+.searchbox {
+  background-color: #fcc302;
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  left: 47px;
+  box-shadow: 5px 10px 11px 0px #00000021;
+}
+.searchbox::placeholder {
+  color: white;
+}
+
+.searchbtn {
+  position: relative;
+  z-index: 99;
+  border: 0;
+  border-radius: 0;
+  background-color: #00bec9;
+  color: white;
+}
+
+.bannertext h1 {
+  font-size: 50px;
+}
+
+.bannertext p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1105px) {
+  .bannertext h1 {
+    font-size: 40px;
+  }
+  .bannertext p {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .bannertext h1 {
+    font-size: 34px;
+  }
+  .bannertext p {
+    font-size: 17px;
+  }
+  .bannerimg {
+    width: 240px;
+  }
+  .banner {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .bannertext h1 {
+    font-size: 32px;
+  }
+  .bannertext p {
+    font-size: 15px;
+  }
+}
+
+.banner-btn-1 {
+  background-color: #00bec9;
+  color: white;
+  border: 2px solid #00bec9;
+}
+.banner-btn-2 {
+  color: white;
+  border: 2px solid white;
+  margin-left: 45px;
+}
+
+/* services */
+
+#servicesmain {
+  margin-top: 100px;
+}
+
+#services h1 {
+  font-size: 2rem;
+}
+
+#services button {
+  background-color: #fd7e14;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#services {
+  width: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  #services {
+    width: 375px;
+  }
+}
+
+#services img {
+  position: relative;
+  /* top: 50px; */
+  z-index: 1;
+}
+
+#yellow-box {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 173px;
+  left: -32px;
+}
+
+.category-item img {
+  width: 500px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .category-item {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .category-item {
+    width: 700px;
+  }
+}
+
+.category2 button {
+  background-color: #fd7e14;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.rtl {
+  direction: rtl;
+}
+.category2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.category2 img {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+#category2-div {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 220px;
+  bottom: 180px;
+}
+
+#counter-bgimg {
+  background-image: url("../images/counterbg.png");
+}
+.counterdiv {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.countericon {
+  font-size: 50px;
+}
+
+.footer {
+  margin-top: 100px;
+}

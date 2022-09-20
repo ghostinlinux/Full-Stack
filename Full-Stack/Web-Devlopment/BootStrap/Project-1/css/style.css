@@ -1,0 +1,20 @@
+.logo {
+  height: 50px;
+  width: 50px;
+  filter: invert(1);
+}
+.slider {
+  height: 500px;
+  opacity: 0.8;
+}
+
+.nav-link {
+  color: white !important;
+}
+.bi {
+  font-size: 40px !important;
+}
+
+.cover {
+  width: 90%;
+}
